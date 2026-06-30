@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0250/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0250/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 養生辯疑訣
+  date: '2015-08-29 00:55:01.277496'
+  source:
+    repository: kanripo
+    path: KR5c0250
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0250_000-ZTDZ.yaml, hash: 'sha256:cecaf1fa81c50f32c7e229fbd498207e94692fe2989f0f9006af8f75a5d76f58'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0250_000-ZTDZ.markers.yaml, hash: 'sha256:8ee48d53d48434ec209543b69c00ab3239e1df7fd7b3c0f11af2abaa7147603d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0250_SJB_000-180559a
+    span:
+    - body
+    - 0
+    - 862
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4557fdd8a65dc793f75e62ab21478773abf610651310797aa34b72a2725c7121
